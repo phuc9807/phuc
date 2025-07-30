@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yugi</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .sidebar {
+            background-color: white;
+            padding: 20px;
+            height: 100%;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        footer {
+            background-color:coral;
+            color: white;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        .card-img-top {
+            width: 100%; 
+            height: 70%; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Trang chủ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sản phẩm mới</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deck bán chạy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Giải đấu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ban list</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8 main-content">
+                <h1>Chào mừng đến với Shop</h1>
+                <p class="lead bold"><b>Các Bộ Bài Đang Hot Hiện Tại</b><img src="./IMAGE/fire.png" width="20px"/></p>
+
+                <div class="card-container" style="display: flex; justify-content: space-between; margin-top: 5px; margin-bottom: 5px;">
+                    <div class="card" style="width: 48%;">
+                        <img src="./IMAGE/broly.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Broly</h5>
+                            <p class="card-text">
+                                A deck typically focuses on powerful, aggressive strategies that leverage Broly's immense strength and ability to overwhelm opponents...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 48%;">
+                        <img src="./IMAGE/blue.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Eyes White Dragon</h5>
+                            <p class="card-text">
+                                A deck focuses on summoning and utilizing the iconic Blue-Eyes White Dragon and its related cards. It's a powerful, fan-favorite...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container" style="display: flex; justify-content: space-between; margin-top: 5px; margin-bottom: 5px;">
+                    <div class="card" style="width: 48%;">
+                        <img src="./IMAGE/fireking.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Fire King</h5>
+                            <p class="card-text">
+                                The Fire King deck, a FIRE-attributed archetype in Yu-Gi-Oh!, revolves around destroying its own monsters to trigger powerful...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 48%;">
+                        <img src="./IMAGE/live.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Live☆Twins</h5>
+                            <p class="card-text">
+                                Live☆Twins are known for their combo-based playstyle, relying on 2+ card combinations and high synergy...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 sidebar">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <b>Tìm kiếm</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Tìm tên bộ bài, thẻ bài...">
+                            <button class="btn btn-primary" type="button">Tìm</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <b>Sản phẩm khác</b>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Vỏ bọc bảo vệ</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Hộp đựng bài</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Starter Deck</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Phụ kiện</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <b>Thông tin liên hệ</b>
+                    </div>
+                    <div class="card-body">
+                        <p><b>Email:</b> phuc2babon@gmail.com</p>
+                        <p><b>Điện thoại:</b> 0123 456 789</p>
+                        <p><b>Địa chỉ:</b> Trái Đất</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12 main-content">
+                <p class="lead"><b>Các Lá Bài Bán Chạy</b><img src="./IMAGE/fire.png" width="20px"/></p>
+
+                <div class="card-container" style="display: flex; justify-content: space-between; margin-top: 5px; margin-bottom: 5px;">
+                    <div class="card col-md-4" style="margin-right: 5px;">
+                        <img src="./IMAGE/Obelisk.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Obelisk The Tormentor</h5>
+                            <p class="card-text">
+                                You can Tribute 2 monsters; destroy all monsters your opponent controls. This card cannot declare an attack the turn this effect is activated...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="./IMAGE/slifer.jpg" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Slifer The Sky Dragon</h5>
+                            <p class="card-text">
+                                Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Normal or Special Summoned to your opponent's field in Attack Position: That monster(s) loses 2000 ATK...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4" style="margin-left: 5px;">
+                        <img src="./IMAGE/ra.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">The Winged Dragon of Ra</h5>
+                            <p class="card-text">
+                                You can pay LP so that you only have 100 left; this card gains ATK/DEF equal to the amount of LP paid. You can pay 1000 LP, then target 1 monster on the field; destroy that target...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container" style="display: flex; justify-content: space-between; margin-top: 5px; margin-bottom: 5px;">
+                    <div class="card col-md-4" style="margin-right: 5px;">
+                        <img src="./IMAGE/lab.jpg" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Lovely Labrynth of The Silver Castle</h5>
+                            <p class="card-text">
+                                You can target 1 Normal Trap in your GY; Set it to your field, but it cannot be activated unless you control a Fiend monster. If another monster(s) leaves the field by your Normal Trap effect...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="./IMAGE/ash.jpg" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Ash Blossom & Joyous Spring</h5>
+                            <p class="card-text">
+                                When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4" style="margin-left: 5px;">
+                        <img src="./IMAGE/maxxc.jpg" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Maxx "C"</h5>
+                            <p class="card-text">
+                                You can send this card from your hand to the Graveyard; this turn, each time your opponent Special Summons a monster(s), immediately draw 1 card...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                </div><div class="card-container" style="display: flex; justify-content: space-between; margin-top: 5px; margin-bottom: 5px;">
+                    <div class="card col-md-4" style="margin-right: 5px;">
+                        <img src="./IMAGE/ice.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Icejade Gymir Aegirine</h5>
+                            <p class="card-text">
+                                You can activate this effect; face-up monsters you control cannot be destroyed, or banished, by your opponent's card effects this turn...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img src="./IMAGE/kuri.png" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Kurikara Divincarnate</h5>
+                            <p class="card-text">
+                                Gains 1500 ATK for each monster Tributed to Special Summon this card. During your End Phase: You can target 1 monster in your opponent's GY...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4" style="margin-left: 5px;">
+                        <img src="./IMAGE/hat.jpg" class="card-img-top bg-secondary-subtle">
+                        <div class="card-body">
+                            <h5 class="card-title">Hatterene</h5>
+                            <p class="card-text">
+                                Hatterene is a Psychic-type Stage 2 Pokémon. Hatterene's abilities and attacks often involve manipulating your opponent's Pokémon...</p>
+                            <a href="#" class="btn btn-primary">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Thông tin Shop</h5>
+                    <p>Chắc chắn bán hàng chính hãng.<img src="./IMAGE/emoji.png" width="50px"/></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Chính sách</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Chính sách bảo mật</a></li>
+                        <li><a href="#" class="text-white">Chính sách vận chuyển</a></li>
+                        <li><a href="#" class="text-white">Chính sách miễn trả</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Mạng xã hội</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Discord</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p> Bản quyền thuộc về Phúc Đẹp Trai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
