@@ -7,8 +7,11 @@ interface Product {
     product_id: number
     product_name: string
     price: number
+    sale_price?: number
+    on_sale?: boolean
     image: string
     slug: string
+    stock: number
 }
 
 interface Category {
