@@ -12,6 +12,7 @@ interface Product {
     category_id: number
     on_sale?: boolean
     sale_price?: number
+    stock: number   
 }
 
 interface Category {
