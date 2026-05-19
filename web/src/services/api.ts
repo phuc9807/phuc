@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://tusigma-api-production.up.railway.app/api',
+  baseURL: 'https://tusigma-api-production.up.railway.app',
 });
 
 api.interceptors.request.use((config) => {
